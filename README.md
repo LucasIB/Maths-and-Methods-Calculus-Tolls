@@ -1,0 +1,5 @@
+# Maths-and-Methods-Calculus-Tools
+Methods for Numeric Integration and others
+
+This a brief summary of different forms of maths implementation on Python. 
+First of all, I'm learning about mathematical forms for using to Numeric Integration to solve particularity problems in Magnets Models applying in accelerators.
