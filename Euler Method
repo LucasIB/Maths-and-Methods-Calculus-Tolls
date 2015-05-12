@@ -1,0 +1,34 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+"""
+Created on 13/04/2015
+Versão 1.0
+@author: Lucas Igor Balthazar
+"""
+#Importa bibliotecas
+import sys, math
+import numpy as np
+import traceback
+import matplotlib.pyplot as plt
+from sympy import *
+
+# x0: Valor inicial da variável independente - Initial value of independent variable
+# xn: Valor final da variável independente - Final value of independent variable
+# y0: Valor inicial da variável dependente - Initial value of dependent variable
+# devF: A derivada da função que está sendo iterada - Function derivative is being iterated
+# h: Steps
+
+def MetodoEuler(x0,xn,y0,h):
+    n=xn-x0+1
+    x=x0
+    y=y0
+    for i in range(n):
+        if i==0:
+            x=x0
+            y=y0
+            print (i,x,y)
+        else:
+            devF = -x*y
+            x += h
+            y += h*devF
+            print (i,x,y)
