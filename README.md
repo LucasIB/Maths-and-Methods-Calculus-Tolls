@@ -7,4 +7,3 @@ First of all, I'm learning about mathematical forms for using to Numeric Integra
 ## Useful Background Information
 The Python software is used to demonstrate and execute the most of commands and formulas. The formulas contained are based in the previous concepts and theorems.
 
-## Testing subtitle
